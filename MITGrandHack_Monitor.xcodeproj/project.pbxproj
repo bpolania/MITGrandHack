@@ -1,0 +1,542 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		45E4554E1AECF19300CB9BCC /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E4554D1AECF19300CB9BCC /* main.m */; };
+		45E455511AECF19300CB9BCC /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E455501AECF19300CB9BCC /* AppDelegate.m */; };
+		45E455541AECF19300CB9BCC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E455531AECF19300CB9BCC /* ViewController.m */; };
+		45E455571AECF19300CB9BCC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 45E455551AECF19300CB9BCC /* Main.storyboard */; };
+		45E455591AECF19300CB9BCC /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 45E455581AECF19300CB9BCC /* Images.xcassets */; };
+		45E4555C1AECF19300CB9BCC /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 45E4555A1AECF19300CB9BCC /* LaunchScreen.xib */; };
+		45E455681AECF19300CB9BCC /* MITGrandHack_MonitorTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 45E455671AECF19300CB9BCC /* MITGrandHack_MonitorTests.m */; };
+		45E455E91AECF1E500CB9BCC /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455E81AECF1E500CB9BCC /* AudioToolbox.framework */; };
+		45E455EB1AECF1EC00CB9BCC /* CFNetwork.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455EA1AECF1EC00CB9BCC /* CFNetwork.framework */; };
+		45E455ED1AECF1F300CB9BCC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455EC1AECF1F300CB9BCC /* CoreGraphics.framework */; };
+		45E455EF1AECF1FA00CB9BCC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455EE1AECF1FA00CB9BCC /* CoreLocation.framework */; };
+		45E455F11AECF20300CB9BCC /* MobileCoreServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455F01AECF20300CB9BCC /* MobileCoreServices.framework */; };
+		45E455F31AECF20D00CB9BCC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455F21AECF20D00CB9BCC /* QuartzCore.framework */; };
+		45E455F51AECF21400CB9BCC /* Security.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455F41AECF21400CB9BCC /* Security.framework */; };
+		45E455F71AECF21B00CB9BCC /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455F61AECF21B00CB9BCC /* StoreKit.framework */; };
+		45E455F91AECF22200CB9BCC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455F81AECF22200CB9BCC /* SystemConfiguration.framework */; };
+		45E455FB1AECF22900CB9BCC /* libz.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455FA1AECF22900CB9BCC /* libz.dylib */; };
+		45E455FD1AECF23100CB9BCC /* libsqlite3.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E455FC1AECF23100CB9BCC /* libsqlite3.dylib */; };
+		45E456061AECF28300CB9BCC /* Bolts.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E456001AECF28300CB9BCC /* Bolts.framework */; };
+		45E456071AECF28300CB9BCC /* Parse.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E456011AECF28300CB9BCC /* Parse.framework */; };
+		45E456081AECF28300CB9BCC /* ParseCrashReporting.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E456021AECF28300CB9BCC /* ParseCrashReporting.framework */; };
+		45E456091AECF28300CB9BCC /* ParseFacebookUtils.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E456031AECF28300CB9BCC /* ParseFacebookUtils.framework */; };
+		45E4560A1AECF28300CB9BCC /* ParseFacebookUtilsV4.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E456041AECF28300CB9BCC /* ParseFacebookUtilsV4.framework */; };
+		45E4560B1AECF28300CB9BCC /* ParseUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 45E456051AECF28300CB9BCC /* ParseUI.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		45E455621AECF19300CB9BCC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 45E455401AECF19300CB9BCC /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 45E455471AECF19300CB9BCC;
+			remoteInfo = MITGrandHack_Monitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		45E455481AECF19300CB9BCC /* MITGrandHack_Monitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MITGrandHack_Monitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E4554C1AECF19300CB9BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E4554D1AECF19300CB9BCC /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		45E4554F1AECF19300CB9BCC /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		45E455501AECF19300CB9BCC /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		45E455521AECF19300CB9BCC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		45E455531AECF19300CB9BCC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		45E455561AECF19300CB9BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		45E455581AECF19300CB9BCC /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		45E4555B1AECF19300CB9BCC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		45E455611AECF19300CB9BCC /* MITGrandHack_MonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MITGrandHack_MonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		45E455661AECF19300CB9BCC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45E455671AECF19300CB9BCC /* MITGrandHack_MonitorTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MITGrandHack_MonitorTests.m; sourceTree = "<group>"; };
+		45E455E81AECF1E500CB9BCC /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		45E455EA1AECF1EC00CB9BCC /* CFNetwork.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CFNetwork.framework; path = System/Library/Frameworks/CFNetwork.framework; sourceTree = SDKROOT; };
+		45E455EC1AECF1F300CB9BCC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		45E455EE1AECF1FA00CB9BCC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		45E455F01AECF20300CB9BCC /* MobileCoreServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = MobileCoreServices.framework; path = System/Library/Frameworks/MobileCoreServices.framework; sourceTree = SDKROOT; };
+		45E455F21AECF20D00CB9BCC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		45E455F41AECF21400CB9BCC /* Security.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Security.framework; path = System/Library/Frameworks/Security.framework; sourceTree = SDKROOT; };
+		45E455F61AECF21B00CB9BCC /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		45E455F81AECF22200CB9BCC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		45E455FA1AECF22900CB9BCC /* libz.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libz.dylib; path = usr/lib/libz.dylib; sourceTree = SDKROOT; };
+		45E455FC1AECF23100CB9BCC /* libsqlite3.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libsqlite3.dylib; path = usr/lib/libsqlite3.dylib; sourceTree = SDKROOT; };
+		45E456001AECF28300CB9BCC /* Bolts.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Bolts.framework; sourceTree = "<group>"; };
+		45E456011AECF28300CB9BCC /* Parse.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = Parse.framework; sourceTree = "<group>"; };
+		45E456021AECF28300CB9BCC /* ParseCrashReporting.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseCrashReporting.framework; sourceTree = "<group>"; };
+		45E456031AECF28300CB9BCC /* ParseFacebookUtils.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtils.framework; sourceTree = "<group>"; };
+		45E456041AECF28300CB9BCC /* ParseFacebookUtilsV4.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseFacebookUtilsV4.framework; sourceTree = "<group>"; };
+		45E456051AECF28300CB9BCC /* ParseUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = ParseUI.framework; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		45E455451AECF19300CB9BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E455FD1AECF23100CB9BCC /* libsqlite3.dylib in Frameworks */,
+				45E455FB1AECF22900CB9BCC /* libz.dylib in Frameworks */,
+				45E455F91AECF22200CB9BCC /* SystemConfiguration.framework in Frameworks */,
+				45E456061AECF28300CB9BCC /* Bolts.framework in Frameworks */,
+				45E455F71AECF21B00CB9BCC /* StoreKit.framework in Frameworks */,
+				45E456081AECF28300CB9BCC /* ParseCrashReporting.framework in Frameworks */,
+				45E455F51AECF21400CB9BCC /* Security.framework in Frameworks */,
+				45E456071AECF28300CB9BCC /* Parse.framework in Frameworks */,
+				45E456091AECF28300CB9BCC /* ParseFacebookUtils.framework in Frameworks */,
+				45E4560B1AECF28300CB9BCC /* ParseUI.framework in Frameworks */,
+				45E455F31AECF20D00CB9BCC /* QuartzCore.framework in Frameworks */,
+				45E4560A1AECF28300CB9BCC /* ParseFacebookUtilsV4.framework in Frameworks */,
+				45E455F11AECF20300CB9BCC /* MobileCoreServices.framework in Frameworks */,
+				45E455EF1AECF1FA00CB9BCC /* CoreLocation.framework in Frameworks */,
+				45E455ED1AECF1F300CB9BCC /* CoreGraphics.framework in Frameworks */,
+				45E455EB1AECF1EC00CB9BCC /* CFNetwork.framework in Frameworks */,
+				45E455E91AECF1E500CB9BCC /* AudioToolbox.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E4555E1AECF19300CB9BCC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		45E4553F1AECF19300CB9BCC = {
+			isa = PBXGroup;
+			children = (
+				45E455FE1AECF23800CB9BCC /* Frameworks */,
+				45E4554A1AECF19300CB9BCC /* MITGrandHack_Monitor */,
+				45E455641AECF19300CB9BCC /* MITGrandHack_MonitorTests */,
+				45E455491AECF19300CB9BCC /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		45E455491AECF19300CB9BCC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				45E455481AECF19300CB9BCC /* MITGrandHack_Monitor.app */,
+				45E455611AECF19300CB9BCC /* MITGrandHack_MonitorTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		45E4554A1AECF19300CB9BCC /* MITGrandHack_Monitor */ = {
+			isa = PBXGroup;
+			children = (
+				45E4554F1AECF19300CB9BCC /* AppDelegate.h */,
+				45E455501AECF19300CB9BCC /* AppDelegate.m */,
+				45E455521AECF19300CB9BCC /* ViewController.h */,
+				45E455531AECF19300CB9BCC /* ViewController.m */,
+				45E455551AECF19300CB9BCC /* Main.storyboard */,
+				45E455581AECF19300CB9BCC /* Images.xcassets */,
+				45E4555A1AECF19300CB9BCC /* LaunchScreen.xib */,
+				45E4554B1AECF19300CB9BCC /* Supporting Files */,
+			);
+			path = MITGrandHack_Monitor;
+			sourceTree = "<group>";
+		};
+		45E4554B1AECF19300CB9BCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E4554C1AECF19300CB9BCC /* Info.plist */,
+				45E4554D1AECF19300CB9BCC /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45E455641AECF19300CB9BCC /* MITGrandHack_MonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				45E455671AECF19300CB9BCC /* MITGrandHack_MonitorTests.m */,
+				45E455651AECF19300CB9BCC /* Supporting Files */,
+			);
+			path = MITGrandHack_MonitorTests;
+			sourceTree = "<group>";
+		};
+		45E455651AECF19300CB9BCC /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				45E455661AECF19300CB9BCC /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		45E455FE1AECF23800CB9BCC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45E455FF1AECF28300CB9BCC /* parse-library-1.7.1 */,
+				45E455FC1AECF23100CB9BCC /* libsqlite3.dylib */,
+				45E455FA1AECF22900CB9BCC /* libz.dylib */,
+				45E455F81AECF22200CB9BCC /* SystemConfiguration.framework */,
+				45E455F61AECF21B00CB9BCC /* StoreKit.framework */,
+				45E455F41AECF21400CB9BCC /* Security.framework */,
+				45E455F21AECF20D00CB9BCC /* QuartzCore.framework */,
+				45E455F01AECF20300CB9BCC /* MobileCoreServices.framework */,
+				45E455EE1AECF1FA00CB9BCC /* CoreLocation.framework */,
+				45E455EC1AECF1F300CB9BCC /* CoreGraphics.framework */,
+				45E455EA1AECF1EC00CB9BCC /* CFNetwork.framework */,
+				45E455E81AECF1E500CB9BCC /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		45E455FF1AECF28300CB9BCC /* parse-library-1.7.1 */ = {
+			isa = PBXGroup;
+			children = (
+				45E456001AECF28300CB9BCC /* Bolts.framework */,
+				45E456011AECF28300CB9BCC /* Parse.framework */,
+				45E456021AECF28300CB9BCC /* ParseCrashReporting.framework */,
+				45E456031AECF28300CB9BCC /* ParseFacebookUtils.framework */,
+				45E456041AECF28300CB9BCC /* ParseFacebookUtilsV4.framework */,
+				45E456051AECF28300CB9BCC /* ParseUI.framework */,
+			);
+			name = "parse-library-1.7.1";
+			path = "MITGrandHack_Monitor/parse-library-1.7.1";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		45E455471AECF19300CB9BCC /* MITGrandHack_Monitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E4556B1AECF19300CB9BCC /* Build configuration list for PBXNativeTarget "MITGrandHack_Monitor" */;
+			buildPhases = (
+				45E455441AECF19300CB9BCC /* Sources */,
+				45E455451AECF19300CB9BCC /* Frameworks */,
+				45E455461AECF19300CB9BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = MITGrandHack_Monitor;
+			productName = MITGrandHack_Monitor;
+			productReference = 45E455481AECF19300CB9BCC /* MITGrandHack_Monitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		45E455601AECF19300CB9BCC /* MITGrandHack_MonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 45E4556E1AECF19300CB9BCC /* Build configuration list for PBXNativeTarget "MITGrandHack_MonitorTests" */;
+			buildPhases = (
+				45E4555D1AECF19300CB9BCC /* Sources */,
+				45E4555E1AECF19300CB9BCC /* Frameworks */,
+				45E4555F1AECF19300CB9BCC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				45E455631AECF19300CB9BCC /* PBXTargetDependency */,
+			);
+			name = MITGrandHack_MonitorTests;
+			productName = MITGrandHack_MonitorTests;
+			productReference = 45E455611AECF19300CB9BCC /* MITGrandHack_MonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		45E455401AECF19300CB9BCC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = LLT;
+				TargetAttributes = {
+					45E455471AECF19300CB9BCC = {
+						CreatedOnToolsVersion = 6.3;
+					};
+					45E455601AECF19300CB9BCC = {
+						CreatedOnToolsVersion = 6.3;
+						TestTargetID = 45E455471AECF19300CB9BCC;
+					};
+				};
+			};
+			buildConfigurationList = 45E455431AECF19300CB9BCC /* Build configuration list for PBXProject "MITGrandHack_Monitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 45E4553F1AECF19300CB9BCC;
+			productRefGroup = 45E455491AECF19300CB9BCC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				45E455471AECF19300CB9BCC /* MITGrandHack_Monitor */,
+				45E455601AECF19300CB9BCC /* MITGrandHack_MonitorTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		45E455461AECF19300CB9BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E455571AECF19300CB9BCC /* Main.storyboard in Resources */,
+				45E4555C1AECF19300CB9BCC /* LaunchScreen.xib in Resources */,
+				45E455591AECF19300CB9BCC /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E4555F1AECF19300CB9BCC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		45E455441AECF19300CB9BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E455541AECF19300CB9BCC /* ViewController.m in Sources */,
+				45E455511AECF19300CB9BCC /* AppDelegate.m in Sources */,
+				45E4554E1AECF19300CB9BCC /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		45E4555D1AECF19300CB9BCC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				45E455681AECF19300CB9BCC /* MITGrandHack_MonitorTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		45E455631AECF19300CB9BCC /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 45E455471AECF19300CB9BCC /* MITGrandHack_Monitor */;
+			targetProxy = 45E455621AECF19300CB9BCC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		45E455551AECF19300CB9BCC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E455561AECF19300CB9BCC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		45E4555A1AECF19300CB9BCC /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				45E4555B1AECF19300CB9BCC /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		45E455691AECF19300CB9BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		45E4556A1AECF19300CB9BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		45E4556C1AECF19300CB9BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor/parse-library-1.7.1",
+				);
+				INFOPLIST_FILE = MITGrandHack_Monitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/Bolts.framework",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/Parse.framework",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/ParseCrashReporting.framework",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/ParseFacebookUtils.framework",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/ParseFacebookUtilsV4.framework",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/ParseUI.framework",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		45E4556D1AECF19300CB9BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor/parse-library-1.7.1",
+				);
+				INFOPLIST_FILE = MITGrandHack_Monitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				LIBRARY_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/Bolts.framework",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/Parse.framework",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/ParseCrashReporting.framework",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/ParseFacebookUtils.framework",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/ParseFacebookUtilsV4.framework",
+					"$(PROJECT_DIR)/MITGrandHack_Monitor.xcodeproj/parse-library-1.7.1/ParseUI.framework",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		45E4556F1AECF19300CB9BCC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MITGrandHack_MonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MITGrandHack_Monitor.app/MITGrandHack_Monitor";
+			};
+			name = Debug;
+		};
+		45E455701AECF19300CB9BCC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = MITGrandHack_MonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MITGrandHack_Monitor.app/MITGrandHack_Monitor";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		45E455431AECF19300CB9BCC /* Build configuration list for PBXProject "MITGrandHack_Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E455691AECF19300CB9BCC /* Debug */,
+				45E4556A1AECF19300CB9BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		45E4556B1AECF19300CB9BCC /* Build configuration list for PBXNativeTarget "MITGrandHack_Monitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E4556C1AECF19300CB9BCC /* Debug */,
+				45E4556D1AECF19300CB9BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		45E4556E1AECF19300CB9BCC /* Build configuration list for PBXNativeTarget "MITGrandHack_MonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				45E4556F1AECF19300CB9BCC /* Debug */,
+				45E455701AECF19300CB9BCC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 45E455401AECF19300CB9BCC /* Project object */;
+}
